@@ -3,14 +3,14 @@
 
 {% block content %}
 
- <nav class = 'nav-text'>
+ <nav class = 'nav-text' style = 'border-radius: 7px;'>
   <div class = "logo">
    <a href = "https://github.com/AubFigz" target = "_blank">
-    <img src = "{% static 'img/icons/logo.png' %}" alt = "Logo">
+    <img src = "{% static 'img/icons/logo.png' %}" alt = "Logo" style = 'border-radius: 8px;'>
    </a>
   </div>
   <div class = "mini-logo">
-   <a href = "https://github.com/AubFigz" target = "_blank">
+   <a href = "https://github.com/AubFigz" target = "_blank" style = 'border-radius: 7px;'>
     <img src = "{% static 'img/icons/logo.png' %}" alt = "Mini Logo">
    </a>
   </div>
@@ -19,31 +19,31 @@
    <li>
     <a href = "#1">
      <i class = "fa fa-home"></i>
-{#     Home#}
+     {#     Home#}
     </a>
    </li>
    <li>
     <a href = "#2">
      <i class = "fa fa-user"></i>
-{#     About#}
+     {#     About#}
     </a>
    </li>
    <li>
     <a href = "#3">
      <i class = "fa fa-pencil"></i>
-{#     Philosophy#}
+     {#     Philosophy#}
     </a>
    </li>
    <li>
     <a href = "#4">
      <i class = "fa fa-image"></i>
-{#     Portfolio#}
+     {#     Portfolio#}
     </a>
    </li>
    <li>
     <a href = "#5">
-     <i style='padding-bottom:18px;' class = "fa fa-envelope"></i>
-{#     Contact#}
+     <i style = 'padding-bottom:18px;' class = "fa fa-envelope"></i>
+     {#     Contact#}
     </a>
    </li>
   </ul>
@@ -54,9 +54,11 @@
    <div class = "content first-content">
     <div class = "container-fluid">
      <div class = "col-md-3">
-      <div class = "author-image" style = 'margin-right: 50% !important; transform: scale(3.00);'>
-       <img src = "{% static 'img/author_image_au.png' %}" alt = "Author Image">
+
+      <div class = "author-image" style = 'margin-right: 50% !important; transform: scale(3.00); margin-top: 33px !important; padding-top: 11px !important;'>
+       <img src = "{% static 'img/author_image_au2.png' %}" alt = "Author Image"'>
       </div>
+
      </div>
      <div class = "col-md-9 author-text">
       <h2 style = 'font-size: 27px;'>Aubrey D. Morales-Figueroa</h2>
@@ -173,7 +175,7 @@
      </div>
      <div class = "col-md-6">
       <div class = "right-image">
-       <img src = "{% static 'img/about_image_au3.png' %}" alt = "" style = "margin-right: 16px;">
+       <img src = "{% static 'img/about_image_au3.png' %}" alt = "" style = "margin-right: 16px; border-radius: 18px !important;">
       </div>
      </div>
     </div>
@@ -193,7 +195,7 @@
         </div>
         <div class = "col-md-6">
          <div class = "right-image">
-          <img src = "{% static 'img/first_service_au.png' %}" alt = "" style = "opacity: 0.54;">
+          <img src = "{% static 'img/first_service_au.png' %}" alt = "" style = "border-radius: 9px !important; opacity: 0.54; margin-top: -33px !important; margin-right: -44px !important;">
          </div>
         </div>
        </div>
@@ -204,7 +206,7 @@
        <div class = "row">
         <div class = "col-md-6">
          <div class = "left-image">
-          <img src = "{% static 'img/second_service_au.jpg' %}" alt = "" style = "opacity: 0.20; margin-top: 4px;">
+          <img src = "{% static 'img/second_service_au.jpg' %}" alt = "" style = "opacity: 0.20; margin-top: 4px; border-radius: 9px !important;">
          </div>
         </div>
         <div class = "col-md-6">
@@ -415,7 +417,7 @@
  </div>
 
  <footer class = "scroll-footer">
-  <p style = 'font-size: 7px;'>02/03/2025</p>
+  <p style = 'font-size: 7px;'>02/14/2025</p>
  </footer>
 
 {% endblock %}
